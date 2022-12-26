@@ -1,0 +1,61 @@
+/* nav bar styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5% 50% 50% 5%;
+  background-color: #222831;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+li a on:hover {
+  font-size: larger;
+}
+
+.active {
+  float: left;
+}
+
+.navItem {
+  float: right;
+}
+
+/*Icon div style*/
+.info_id{
+  display: inline-block;
+  width: 100%;
+  
+}
+.icon_div {
+  display: inline;
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  float: left;
+ 
+}
+.info_div{
+  color: #ffffff;
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align:center;
+}
+
+.header_div{
+  display: inline-block;
+  width: 100%;
+  height: 25%;
+  background-color: #222831;
+}
