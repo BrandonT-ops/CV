@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>My Hobbies</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="shortcut icon" href="IMAGES/favicon.ico" type="image/x-icon">
 
     <!-- We link the bootstrap css to the file-->
@@ -43,43 +43,44 @@
     <!--Code for hobbies home page section-->
 
     <div>
-        <div class="textzone">
-        <h3>
+        <div class="textzone1">
+        <h1>
             My Hobbies
-        </h3>
+        </h1>
         </div>
-        <table >
+        <table>
             <tr>
                 <td>
-                    <div class="textzone">
-                    <h6>I have quite many hobbies, here are some</h6>
+                    <div class="textzone1">
+                    <h4>I have quite many hobbies, here are some</h4>
                     <button onclick="location.href = '#moveToHobbies';"> Check out my hobbies</button>
                     </div>
                 </td>
-                <td>
-                    <img src="IMAGES/undraw_gaming.svg" alt="undraw_gaming >
+                <td> 
+                    <img src="IMAGES/undraw_gaming.svg" alt="undraw_gaming" >
                 </td>
+                
             </tr>
         </table>
 
     </div>
     
     <!--Code for hobbies list section-->
-    <!--
-    <div id="moveToHobbies">
+
+    <div class="textzone1" id="moveToHobbies">
         <table>
             <tr>
                 <td>
-                    <ol type="a">
-                        <h3>List of Hobbies</h3>
-                        <li> Sleeping </li>
-                        <li> Psychology </li>
-                        <li> Photography </li>
-                        <li> <a href="yugure-poetry.blogspot.com"> Poetry </a></li>
-                        <li> <a href=""> Video Games </a></li>
+                    <h3>List of Hobbies</h3>
+                    <ol type="a" class="list-group">
+                        <li class="list-group-item"> Sleeping </li>
+                        <li class="list-group-item"> Psychology </li>
+                        <li class="list-group-item"> Photography </li>
+                        <li class="list-group-item"> <a href="yugure-poetry.blogspot.com"> Poetry </a></li>
+                        <li class="list-group-item"> <a href=""> Video Games </a></li>
                     </ol>
                 </td>
-                <td>
+                <td class="">
                     <img src="IMAGES/undraw_site_content.svg" alt="undraw_gaming">
                 </td>
             </tr>
@@ -89,22 +90,21 @@
 
 
     <!--Code for footer-->
-    
-    <div>
-        <table border="1" >
-            <tr>
-                <td>
-                    <a href=" my_hobbies.html"> My Hobbies </a>
-            <br>
-            <a href="contact-me.html"> Contact Me </a>
+    <div class="textzone">
+        <table cellspacing="100" class="table table-light">
+          <tr>
+            <td>
+              <a href="my_hobbies.html"> My Hobbies </a>
+              <br>
+              <a href="contact-me.html"> Contact Me </a>
             </td>
             <td>
-                <h6> Hey </h6>
-                <img src="" alt="">
+              <h6> Tapiba Brandon Tapiba </h6>
+              <img src="IMAGES/profile_picture.jpg" alt="Brandon Tapiba's Profile picture" class="pp">
             </td>
-            </tr>
+          </tr>
         </table>
-    </div>
+      </div>
 </body>
 
 </html>

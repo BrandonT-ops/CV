@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact me</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="shortcut icon" href="IMAGES/favicon.ico" type="image/x-icon">
 
     <!-- We link the bootstrap css to the file-->
@@ -52,7 +52,7 @@
               <button onclick="location.href = '#contactDetails';" id="move"> Send me a message</button>
           </td>
           <td class="icon_section">
-            <img src="IMAGES/undraw_freelancer.svg" alt="Brandon Tapiba's freelancer" id="profile_picture">
+            <img src="IMAGES/undraw_freelancer.svg" alt="Brandon Tapiba's freelancer">
           </td>
         </tr>
       </table>
@@ -62,53 +62,50 @@
 <!-- Contact details-->
 <div class="textzone" id="contactDetails">
     <h1> My Contact Details</h1>
-    <p> My Fictional Address </p>
-    <p> +1 022 698 547 138 </p>
-    <p> brandontapibagmail.com </p>
+    <h6> Cameroon, Yaounde, Biyem-Assi, Rond point Express </h6>
+    <h6> +237 681-020-655 </h6>
+    <h6> brandontapiba@gmail.com </h6>
 
 </div>
 <hr size="3">
 
 <!--form code-->
 <div class="textzone">
-    <form action="mailto:brandontapiba@gmail.com" method="post" enctype="text/plain">
+  <h2>Send a message here</h2>
+    <form action="mailto:brandontapiba@gmail.com" method="post" enctype="text/plain" class="form-group">
         <label> Your Name: </label>
-        <input type="text" name="yourName" value="">
+        <input class="form-control" type="text" name="yourName" value="">
         <br>
 
         <label> Your Email: </label>
-        <input type="email" name="yourEmail" value="">
+        <input class="form-control" type="email" name="yourEmail" value="">
         <br>
 
         <label> Your Message: </label>
         <br>
-        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <textarea class="form-control" name="yourMessage" id="" cols="30" rows="10"></textarea>
         <br>
-        <input type="submit" name="">
+        <input class="btn btn-primary" type="submit" name="">
 
     </form>
 </div>
 <hr size="3">
 <!--footer section-->
-<div>
-    <table border="1">
-        <tr>
-          <td class="textzone">
-            <a href="my_hobbies.html"> My Hobbies </a>
-            <br>
-            <a href="contact-me.html"> Contact Me </a>
-          </td>
-          <td class="textzone">
-            <h6>Hey </h6>
-              <img src="" alt="">
-          </td>
-        </tr>
-      </table>
-
+<div class="textzone">
+  <table cellspacing="100" class="table table-light">
+    <tr>
+      <td>
+        <a href="my_hobbies.html"> My Hobbies </a>
+        <br>
+        <a href="contact-me.html"> Contact Me </a>
+      </td>
+      <td>
+        <h6> Tapiba Brandon Tapiba </h6>
+        <img src="IMAGES/profile_picture.jpg" alt="Brandon Tapiba's Profile picture" class="pp">
+      </td>
+    </tr>
+  </table>
 </div>
-    
-
-   
 
 </body>
 

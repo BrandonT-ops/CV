@@ -7,6 +7,12 @@ h1 h2 h3 h4 h5 h6 p em td{
   font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.pp{
+  border-radius: 50%;
+  max-width: 75%;
+  max-height: 75%;
+}
+
 img{
   max-width: 75%;
   max-height: 75%;
@@ -27,6 +33,13 @@ button{
   background-color: #00ADB5;
   color: white;
   border: none;
+}
+
+.textzone1{
+  padding: 5%;
+  border-left-color: #00ADB5;
+  border-left-width: 10%;
+  border-left-style: solid;
 }
 
 /*
